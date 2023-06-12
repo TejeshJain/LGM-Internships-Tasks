@@ -1,0 +1,17 @@
+.filters{
+    color:black;
+}
+.navbar{
+    background-color: white !important;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+}
+.footer{
+    margin-top: 50px;
+}
+body{
+    color: aqua;
+}
