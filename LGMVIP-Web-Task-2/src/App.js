@@ -29,12 +29,12 @@ function App() {
   return (
     <div>
       <nav className="navbar">
-        <span className="brand-name">Tejesh Jain</span>
-        <button className="get-users" onClick={getUsers} disabled={loading}>
+        {/* <span className="brand-name" style={{marginRight:"12px", fontWeight:"bold"}}>Tejesh Jain</span> */}
+        <button className="get-users" onClick={getUsers} disabled={loading} style={{padding:"12px", borderRadius:"4px", marginTop:"50px"}}>
           Get Users
         </button>
       </nav>
-      {Flag==true ? (<div className="user-card">
+      {Flag===true ? (<div className="user-card" style={{display:"flex",flexWrap:"wrap", marginTop:"100px"}}>
         {loading ? (
           <div className="loader"><h1>Loading...</h1></div>
         ) : (

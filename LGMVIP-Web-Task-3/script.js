@@ -5,7 +5,8 @@ submit.addEventListener('click',()=>{
     var output=document.querySelector(".output");
     console.log(output);
     let imageurl=document.querySelector("#img").value;
-    var generatedurl=`https://drive.google.com/uc?export=view&id=${imageurl}`;
+    // var generatedurl=`https://drive.google.com/uc?export=view&id=${imageurl}`;
+    var generatedurl=`${imageurl}`;
     //console.log(generatedurl);
    
 
